@@ -16,10 +16,9 @@ Everyone will get a chance to **be creative**, and work through some really **to
 Your app must:
 
 * **Render the game in the browser**
-* **Switch turns** between two players (it could be 1 player vs the computer, or 2 players taking turns [Extra challenging])
 * **Design and implement logic for winning** & **visually display a win or loss state or which player won in a 2 player game**
 * **Include separate HTML / CSS / JavaScript files**
-* Use the **KISS (Keep It Simple Stupid)** and **DRY (Don't Repeat Yourself)** principle
+* Use the **KISS (Keep It Simple Stupid)** and **DRY (Don't Repeat Yourself)** principles
 * Use **Vanilla JavaScript** or **jQuery** for **DOM manipulation**
 * **Deploy your game online**, where the rest of the world can access it [To be shown on Thursday - Github Pages]
 * Use **responsive design** for HTML and CSS (adhere to best practices)
@@ -30,9 +29,15 @@ Your app must:
 
 * A **working game, built by you**, hosted on the internet
 * A **git repository hosted on Github**, with a link to your hosted game in the URL section, and **frequent** commits dating back to the very beginning of the project
-* **A ``readme.md`` file** with explanations of the technologies used, the approach taken, user stories, wireframes, how-to-use instructions, unsolved problems, etc.
+* **A ``readme.md`` file** which must include:
+  - Explanations of the technologies used
+  - Approach taken
+  - User stories
+  - Wireframes
+  - How-to-use instructions
+  - Unsolved problems
 * A presentation deck which must include:
-  - At least 5 slides
+  - ~5 slides
   - Wireframes
   - Features of your project
   - Constraints you had to work with (e.g. technological, timing, content, etc.)
@@ -58,7 +63,7 @@ Your app must:
 A game with 4 colored "buttons". In this game, a round consists of lighting up one or more buttons in a random order, after which the player must reproduce that order by pressing the buttons. As the game progresses, the number of buttons to be pressed increases.
 
 ##### Card Counter
-
+A game where cards are flipped over one by one over a set amount of time. By the end of the timer, user should be able to enter the "card count" or "score" based on a card counting strategy.
 
 ##### Connect Four
 Users will take turns filling boxes in a grid and checking for a win condition. Gravity takes hold of the boxes and forces drops to the bottom of the game board!
@@ -89,7 +94,7 @@ Make a one player game where people down on their luck can lose all their money 
 
 * __Deployment__: Did you deploy your application to a public url using GitHub Pages?
 
-* __Presentation__: Did you present your game, your code, and your project-making experience clearly and effectively to the class? 
+* __Presentation__: Did you present your game, your code, and your project-making experience clearly and effectively to the class?
 
 * __Total__: Your instructors will give you a score for each section between:
 
