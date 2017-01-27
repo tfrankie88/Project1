@@ -1,0 +1,184 @@
+body {
+  /*background-color: tomato;*/
+  text-align: center;
+  font-family: helvetica;
+  color:
+}
+
+/*gives boxes to every element to see its realtion space*/
+/*.check {
+  border: 1px solid black;
+}*/
+
+/*Elements are contained in Box*/
+.box1 {
+  display: flex;
+  padding: 10px;
+  margin: auto;
+}
+
+
+
+/****
+Input and Instructions
+****/
+
+.queryField {
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+}
+
+.word {
+  flex: 1;
+  margin: auto;
+}
+
+input {
+  flex: 1;
+  margin: 0 auto;
+}
+
+input[type="text"] {
+font-size: 40px;
+width: 50px;
+height: 10px;
+text-align: center;
+}
+
+.butSubmit {
+  flex: 1;
+  line-height: 88px;
+  margin: auto;
+}
+
+#submitTask {
+  color: white;
+  margin: 0 auto;
+  border: none;
+  background-color: blue;
+  width: 100px;
+  height: 50px;
+}
+
+.instructions {
+  flex: 1;
+  max-width: 300px;
+  max-height: 100px;
+  overflow: scroll;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 0 10px;
+  display: inline;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+/*****
+ Hangman Image Display Arena
+ *****/
+
+.hangmanDisplay {
+  flex:1;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  position: relative;
+  width: 302px;
+  height: 403px;
+}
+
+.bully {
+  flex: 1;
+  margin: auto;
+  position: absolute;
+  background-image: url(bully.png);
+  background-repeat:no-repeat;
+  background-size: contian;
+  z-index: 2;
+  width: 300px;
+  height: 401px;
+}
+
+.lilGuy {
+  flex: 1;
+  display: flex;
+  margin: auto;
+  position: absolute;
+  background-image: url(lilGuy.png);
+  background-repeat:no-repeat;
+  background-size: contain;
+  width: 300px;
+  height: 401px;
+}
+
+
+/***
+Limbs
+***/
+
+.limb {
+  flex: 1;
+}
+
+/*.pOne {
+  background-color: white;
+  width: 46px;
+  height: 89px;
+  position: absolute;
+  left: 44px;
+  top: 57px;
+}
+
+.pTwo {
+  background-color: white;
+  width: 46px;
+  height: 89px;
+  position: absolute;
+  left: 90px;
+  top: 56px;
+}
+
+.pThree {
+  background-color: white;
+  width: 85px;
+  height: 52px;
+  position: absolute;
+  left: 50px;
+  top: 145px;
+}
+
+.pFour {
+  background-color: white;
+  width: 51px;
+  height: 152px;
+  position: absolute;
+  left: 15px;
+  top: 197px;
+}
+
+.pFive {
+  background-color: white;
+  width: 50px;
+  height: 152px;
+  position: absolute;
+  left: 116px;
+  top: 197px;
+}
+
+.pSix {
+  background-color: white;
+  width: 50px;
+  height: 152px;
+  position: absolute;
+  left: 66px;
+  top: 197px;
+}*/
